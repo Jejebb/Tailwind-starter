@@ -1,3 +1,21 @@
+/* src/index.css */
+
+/* Import Tailwind's base styles */
 @tailwind base;
+
+/* Import Tailwind's component styles */
 @tailwind components;
+
+/* Import Tailwind's utility styles (where your animations will be generated) */
 @tailwind utilities;
+
+/* You can add any global custom CSS here if needed, but for Tailwind,
+   most styling is done directly in your components using utility classes. */
+
+/* Optional: Basic body styling if not handled by App.tsx */
+body {
+  margin: 0;
+  font-family: sans-serif; /* Example font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
